@@ -1,8 +1,12 @@
 package my.Codes.Kotlin
 
+// Funções de membro e extensões com um único parâmetro podem ser
+// transformadas em funções infix.
+
 fun main() {
     infix fun Int.times(str: String) = str.repeat(this)             // 1
-    println(2 times "Bye")                                             // 2
+    println(2 times "Bye ")                                            // 2
+    println(10 times "...")
 
     val par = "Fernando" to "Katia"                                    // 3
     println(par)
@@ -21,9 +25,11 @@ class Pessoa(val nome: String) {
     infix fun minhasFilhas(other: Pessoa) {amaFilhas.add(other)}        // 6
 }
 
-// 1. Define uma função de extensão de infixo em Int.
+// 1. Define uma função de extensão de infix em Int.
 // 2. Chama a função infix.
-// 3. Cria um par chamando a função infixo a da biblioteca padrão.
+// 3. Cria um par chamando a função infix da biblioteca padrão.
 // 4. Aqui está sua própria implementação de para chamada criativamente.
 // 5. A notação Infix também funciona em funções de membros (métodos).
 // 6. A classe contida se torna o primeiro parâmetro.
+
+// Observe que o exemplo usa funções locais (funções aninhadas em outra função).

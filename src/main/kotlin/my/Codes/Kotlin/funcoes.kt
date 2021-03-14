@@ -35,9 +35,9 @@ fun main() {
 // 2. Uma função que leva um segundo parâmetro opcional com o valor
 // padrão Info. O tipo de retorno é omitido, o que significa que é realmente Unit.
 
-//3. Uma função que retorna um inteiro.
+// 3. Uma função que retorna um inteiro.
 
-//4. Uma função de expressão única que retorna um número inteiro (inferido).
+// 4. Uma função de expressão única que retorna um número inteiro (inferido).
 
 // 5. Chama a primeira função com o argumento Hello.
 
@@ -57,5 +57,5 @@ fun main() {
 
 // extra 3. Imprime o resultado da função divide, dados os argumentos x e y.
 
-// extra 4. Imprime o resultado da função subtrai, dados x e y.
+// extra 4. Imprime o resultado da função subtrai, de x e y.
 

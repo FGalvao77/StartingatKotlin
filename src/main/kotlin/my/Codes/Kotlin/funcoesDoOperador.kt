@@ -13,6 +13,7 @@ val str = "Always forgive your enemies; nothing annoys them so much"
     println(str[0..14])                                                        // 4
 
 val fullName = "Fernando Galvão"                                               // extra 1
+    println("Full name: $fullName")
     println("\tFirst name: ${fullName[0..8]}\n" +
             "\tLast name: ${fullName[9..14]}")
 }
